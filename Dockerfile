@@ -6,6 +6,6 @@ COPY patch.sh patch.sh
 RUN chmod +x patch.sh
 #RUN chmod +x ghost.sh
 
-RUN ./bin/patch.sh
+RUN ./patch.sh
 
 #ENTRYPOINT ["./ghost.sh"]
